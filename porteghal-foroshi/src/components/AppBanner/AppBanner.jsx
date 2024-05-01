@@ -13,7 +13,7 @@ const bannerStyle = {
 const AppBanner = () => {
   return (
     <>
-      <div className="container my-14">
+      <div className="container my-14" data-aos="fade">
         <div
           className="sm:min-h-[400px] sm:flex sm:justify-start sm:items-center rounded-xl"
           style={bannerStyle}

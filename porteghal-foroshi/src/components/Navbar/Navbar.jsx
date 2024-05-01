@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = ({ sideBar, setSideBar }) => {
   return (
     <div className="absolute top-0 right-0 w-full py-2 text-white z-20">
-      <div className="container">
+      <div className="container" data-aos="fade">
         <div className="flex justify-between items-center">
           <h1 className="text-4xl font-bold">
             پرتقال <span className="font-normal text-2xl">نعناع</span>

@@ -31,9 +31,13 @@ const Services = () => {
   return (
     <div className="container my-16 space-y-4">
       <div className="text-center max-w-lg mx-auto space-y-2">
-        <h1 className="text-3xl font-bold text-dark">
+        <h1 data-aos="fade-up" className="text-3xl font-bold text-dark">
           میوه های <span className="text-primary">تازه و خوشمزه</span>
-          <p className="text-sm opacity-50 mt-2">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="text-sm opacity-50 mt-2"
+          >
             میوه‌ها و سبزیجات یکی از ۴ گروه اصلی غذایی هستند که جایگاه ویژه‌ای
             در میان سایر مواد غذایی دارند‌. این گروه سرشار از خواص و‌ فواید
           </p>
